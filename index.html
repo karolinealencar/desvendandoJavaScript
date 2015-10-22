@@ -89,22 +89,20 @@
                 Strings são usadas para determinar textos, e podem ser declaras com aspas simples ou dupla, mas lembre-se:
 		as aspas no início e fim devem combinar.
 	               <p class="code">
-	
 						"Patch my boat with chewing gum"
-			</p>			'Monkeys wave goodbye'
+						'Monkeys wave goodbye'
+			</p>			
 
 		Há caracteres como, colocar aspas entre aspas, novas linhas, entre outros que não podem ser colocadas entre aspas, então
 		a seguinte convenção é usada: Quando há uma barra invertida (\) dentro do texto entre aspas, indica que o caracter depois desta tem um significado especial.
 		Uma aspa precedida de uma barra invertida não irá findar a string, e sim fazer parte dela. Quando o caracter 'n' correr depois da barra invertida, será interpretado como uma nova linha, e um 't', o caracter tab.
 		Veja a string seguinte:
 			  <p class="code">
-
 						"This is the first line\nAnd this is the second"
 			  </p>
 		O verdadeiro texto contido é:	
 			<p class="code">
-
-						This is the first line <br />
+						This is the first line <br><br>
 						And this is the second
 			</p>
 		fontes: <a href="https://github.com/braziljs/eloquente-javascript" target="_blank">JavaScript Eloquente</a>	
