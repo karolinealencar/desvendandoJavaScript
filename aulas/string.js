@@ -44,3 +44,7 @@ nome.toLowerCase(); // OUTPUT: adejair
 nome.toUpperCase(); // OUTPUT: ADEJAIR
 
 // trim remove espaço no inicio e final da string
+var str = "       Hello World!        ";
+alert(str.trim()); 
+ //O alerta irá mostrar
+Hello World!
